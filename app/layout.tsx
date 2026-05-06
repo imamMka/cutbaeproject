@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   description:
     "Trusted barbershop in Karawang with 4.9★ rating. Haircut, Styling, Hot Stone Treatment. Open daily 09:00–22:00. Book via WhatsApp.",
   keywords: ["barbershop karawang", "cutbae", "potong rambut karawang", "barber premium karawang"],
+  icons: {
+    icon: "/logo-cutbae.svg",
+  },
   openGraph: {
     title: "CUTBAE Barbershop",
     description: "Precision Cut. Premium Experience. Karawang's #1 Barbershop.",
