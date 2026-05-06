@@ -5,7 +5,7 @@ import { WhatsAppIcon } from "@/components/Icons";
 // ─── HERO ─────────────────────────────────────────────────────────────────────
 export function HeroSection() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-zinc-950">
+    <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-zinc-950 pt-20 pb-16">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
