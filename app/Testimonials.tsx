@@ -11,7 +11,7 @@ export function TestimonialsSection() {
   return (
     <section id="testimonials" className="py-28 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-5">
-        <SectionLabel label="Testimonials" />
+        <SectionLabel label="Ulasan" />
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-4">
           <h2 className="text-white text-4xl md:text-5xl font-serif font-black leading-tight">
             Kata mereka
@@ -20,7 +20,7 @@ export function TestimonialsSection() {
             <span className="text-amber-400 text-5xl font-black">4.9</span>
             <div>
               <div className="flex gap-0.5 mb-1">{[...Array(5)].map((_, i) => <span key={i} className="text-amber-400 text-sm">★</span>)}</div>
-              <span className="text-zinc-500 text-xs tracking-wider">449 Google Reviews</span>
+              <span className="text-zinc-500 text-xs tracking-wider">449 Ulasan Google</span>
             </div>
           </div>
         </div>

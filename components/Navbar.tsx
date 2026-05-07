@@ -45,7 +45,7 @@ export function Navbar() {
           className="hidden md:inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-zinc-950 text-xs font-bold tracking-widest uppercase px-5 py-2.5 transition-all duration-300"
         >
           <WhatsAppIcon className="w-3.5 h-3.5" />
-          Book Now
+          Booking
         </a>
 
         <button
@@ -78,7 +78,7 @@ export function Navbar() {
           <li>
             <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-amber-400 text-zinc-950 text-xs font-bold tracking-widest uppercase px-5 py-2.5 mt-2">
               <WhatsAppIcon className="w-3.5 h-3.5" />
-              Book Now
+              Booking
             </a>
           </li>
         </ul>

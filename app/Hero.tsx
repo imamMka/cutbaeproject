@@ -36,13 +36,13 @@ export function HeroSection() {
         <div className="flex gap-0.5">
           {[...Array(5)].map((_, i) => <span key={i} className="text-amber-400 text-xs">★</span>)}
         </div>
-        <span className="text-zinc-500 text-xs tracking-wider">4.9 · 449 reviews</span>
+        <span className="text-zinc-500 text-xs tracking-wider">4.9 · 449 ulasan</span>
       </div>
 
       <div className="relative z-20 max-w-5xl mx-auto px-5 text-center">
         <div className="inline-flex items-center gap-3 mb-8 animate-fadeInSlow">
           <div className="h-px w-10 bg-amber-400" />
-          <span className="text-amber-400 text-xs tracking-[0.4em] uppercase font-medium">Karawang, West Java</span>
+          <span className="text-amber-400 text-xs tracking-[0.4em] uppercase font-medium">Karawang, Jawa Barat</span>
           <div className="h-px w-10 bg-amber-400" />
         </div>
 
@@ -54,19 +54,19 @@ export function HeroSection() {
             animationDelay: "0.1s",
           }}
         >
-          Precision Cut.
+          Potongan Presisi.
           <br />
-          <span className="text-amber-400">Premium</span>
+          <span className="text-amber-400">Pengalaman</span>
           <br />
-          Experience.
+          Premium.
         </h1>
 
         <p 
           className="text-zinc-400 text-base md:text-lg max-w-md mx-auto mb-10 leading-relaxed animate-fadeInUp" 
           style={{ animationDelay: "0.3s" }}
         >
-          Trusted barbershop in Karawang — where every cut is a statement.
-          Warm towel &amp; mineral water, complimentary.
+          Barbershop terpercaya di Karawang — di mana setiap potongan adalah pernyataan diri.
+          Gratis handuk hangat &amp; air mineral.
         </p>
 
         <div 
@@ -80,14 +80,14 @@ export function HeroSection() {
             className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-300 text-zinc-950 font-bold tracking-widest uppercase text-sm px-8 py-4 transition-all duration-300 hover:shadow-xl hover:shadow-amber-400/25 hover:-translate-y-0.5"
           >
             <WhatsAppIcon className="w-4 h-4" />
-            Book via WhatsApp
+            Booking via WhatsApp
           </a>
 
           <a
             href="#services"
             className="inline-flex items-center gap-2 border border-zinc-700 hover:border-zinc-500 text-zinc-300 hover:text-white font-medium tracking-widest uppercase text-sm px-8 py-4 transition-all duration-300 hover:-translate-y-0.5"
           >
-            View Services <span className="text-amber-400">↓</span>
+            Lihat Layanan <span className="text-amber-400">↓</span>
           </a>
         </div>
       </div >
@@ -96,7 +96,7 @@ export function HeroSection() {
         <div className="flex whitespace-nowrap animate-marquee">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="text-zinc-600 text-xs tracking-[0.5em] uppercase mx-8">
-              Haircut · Styling · Hot Stone · Premium Barbershop · Karawang ·
+              Potong Rambut · Styling · Hot Stone · Barbershop Premium · Karawang ·
             </span>
           ))}
         </div>

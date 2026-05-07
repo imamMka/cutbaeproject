@@ -26,13 +26,13 @@ export function CapstersSection() {
       </div>
 
       <div className="max-w-6xl mx-auto px-5 relative z-10">
-        <SectionLabel label="Our Team" />
+        <SectionLabel label="Tim Kami" />
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-4">
           <h2 className="text-white text-4xl md:text-5xl font-serif font-black leading-tight">
-            Meet the <span className="text-amber-400">Capsters</span>
+            Kenalan sama <span className="text-amber-400">Capster</span> Kami
           </h2>
           <p className="text-zinc-500 text-sm max-w-xs leading-relaxed">
-            The skilled hands behind every precision cut and premium experience at CUTBAE.
+            Tangan-tangan terampil di balik setiap potongan presisi dan pengalaman premium di CUTBAE.
           </p>
         </div>
 

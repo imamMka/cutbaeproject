@@ -11,9 +11,9 @@ export function GallerySection() {
   return (
     <section id="gallery" className="py-28 bg-zinc-900">
       <div className="max-w-6xl mx-auto px-5">
-        <SectionLabel label="Gallery" />
+        <SectionLabel label="Galeri" />
         <h2 className="text-white text-4xl md:text-5xl font-serif font-black mb-16 leading-tight">
-          The work speaks
+          Karya Terbaik Kami
         </h2>
         <div
           ref={ref}

@@ -22,17 +22,17 @@ export function LocationSection() {
       </div>
 
       <div className="max-w-6xl mx-auto px-5 relative z-10">
-        <SectionLabel label="Location" />
+        <SectionLabel label="Lokasi" />
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-white text-4xl font-serif font-black mb-8 leading-tight">
-              Find us in <br /><span className="text-amber-400">Karawang</span>
+              Temukan kami di <br /><span className="text-amber-400">Karawang</span>
             </h2>
             <div className="space-y-6">
               <div className="flex gap-4">
                 <span className="text-amber-400 text-xl mt-0.5">◎</span>
                 <div>
-                  <div className="text-white font-semibold mb-1 text-sm tracking-wider uppercase">Address</div>
+                  <div className="text-white font-semibold mb-1 text-sm tracking-wider uppercase">Alamat</div>
                   <p className="text-zinc-400 leading-relaxed">
                     Jalan Raya Perumnas Bumi Teluk Jambe No.17,<br />Karawang, Jawa Barat
                   </p>
@@ -41,7 +41,7 @@ export function LocationSection() {
               <div className="flex gap-4">
                 <span className="text-amber-400 text-xl mt-0.5">◷</span>
                 <div>
-                  <div className="text-white font-semibold mb-1 text-sm tracking-wider uppercase">Hours</div>
+                  <div className="text-white font-semibold mb-1 text-sm tracking-wider uppercase">Jam Operasional</div>
                   <div className="text-zinc-400 space-y-1">
                     <div className="flex justify-between gap-8">
                       <span>Senin – Minggu</span>
@@ -49,7 +49,7 @@ export function LocationSection() {
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                      <span className="text-green-400 text-xs">Open Now</span>
+                      <span className="text-green-400 text-xs">Buka Sekarang</span>
                     </div>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export function LocationSection() {
               <div className="flex gap-4">
                 <span className="text-amber-400 text-xl mt-0.5">◈</span>
                 <div>
-                  <div className="text-white font-semibold mb-1 text-sm tracking-wider uppercase">Contact</div>
+                  <div className="text-white font-semibold mb-1 text-sm tracking-wider uppercase">Kontak</div>
                   <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 transition-colors flex items-center gap-2 text-sm">
                     <WhatsAppIcon className="w-4 h-4" />
                     Chat di WhatsApp
@@ -71,7 +71,7 @@ export function LocationSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-8 border border-zinc-700 hover:border-amber-400/40 text-zinc-300 hover:text-amber-400 text-xs tracking-widest uppercase px-6 py-3 transition-all duration-300"
             >
-              Open in Google Maps ↗
+              Buka di Google Maps ↗
             </a>
           </div>
 

@@ -17,16 +17,16 @@ const dmSerifDisplay = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "CUTBAE Barbershop – Precision Cut. Premium Experience. | Karawang",
+  title: "CUTBAE Barbershop – Potongan Presisi. Pengalaman Premium. | Karawang",
   description:
-    "Trusted barbershop in Karawang with 4.9★ rating. Haircut, Styling, Hot Stone Treatment. Open daily 09:00–22:00. Book via WhatsApp.",
+    "Barbershop terpercaya di Karawang dengan rating 4.9★. Potong Rambut, Styling, Hot Stone Treatment. Buka setiap hari 09:00–22:00. Booking via WhatsApp.",
   keywords: ["barbershop karawang", "cutbae", "potong rambut karawang", "barber premium karawang"],
   icons: {
     icon: "/logo-cutbae.svg",
   },
   openGraph: {
     title: "CUTBAE Barbershop",
-    description: "Precision Cut. Premium Experience. Karawang's #1 Barbershop.",
+    description: "Potongan Presisi. Pengalaman Premium. Barbershop #1 di Karawang.",
     type: "website",
   },
 };

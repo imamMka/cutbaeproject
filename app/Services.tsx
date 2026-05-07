@@ -52,15 +52,15 @@ export function ServicesSection() {
     <section id="services" className="py-28 bg-zinc-900 relative">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-amber-400/[0.04] via-transparent to-transparent pointer-events-none" />
       <div className="max-w-6xl mx-auto px-5">
-        <SectionLabel label="Services" />
+        <SectionLabel label="Layanan" />
         <h2 className="text-white text-4xl md:text-5xl font-serif font-black mb-16 leading-tight">
-          What we offer
+          Pilihan Layanan
         </h2>
 
         {/* HAIRCUT SECTION */}
         <div ref={refHaircut}>
           <div className="flex items-center gap-4 mb-8">
-            <h3 className="text-zinc-400 text-sm tracking-[0.3em] uppercase font-bold">Haircut</h3>
+            <h3 className="text-zinc-400 text-sm tracking-[0.3em] uppercase font-bold">Potong Rambut</h3>
             <div className="h-px flex-1 bg-zinc-800" />
           </div>
           <ServiceGrid items={SERVICES_HAIRCUT} visible={visibleHaircut} />
@@ -69,7 +69,7 @@ export function ServicesSection() {
         {/* COLORING SECTION */}
         <div ref={refColoring}>
           <div className="flex items-center gap-4 mb-8">
-            <h3 className="text-zinc-400 text-sm tracking-[0.3em] uppercase font-bold">Coloring</h3>
+            <h3 className="text-zinc-400 text-sm tracking-[0.3em] uppercase font-bold">Pewarnaan</h3>
             <div className="h-px flex-1 bg-zinc-800" />
           </div>
           <ServiceGrid items={SERVICES_COLORING} visible={visibleColoring} />
@@ -78,7 +78,7 @@ export function ServicesSection() {
         {/* TREATMENTS SECTION */}
         <div ref={refTreatments}>
           <div className="flex items-center gap-4 mb-8">
-            <h3 className="text-zinc-400 text-sm tracking-[0.3em] uppercase font-bold">Other Treatments</h3>
+            <h3 className="text-zinc-400 text-sm tracking-[0.3em] uppercase font-bold">Perawatan Lainnya</h3>
             <div className="h-px flex-1 bg-zinc-800" />
           </div>
           <ServiceGrid items={SERVICES_TREATMENTS} visible={visibleTreatments} />
@@ -87,7 +87,7 @@ export function ServicesSection() {
         <div className="mt-8 border border-zinc-800 bg-zinc-950/30 px-6 py-4 flex items-center gap-4">
           <span className="text-amber-400 text-lg">✦</span>
           <p className="text-zinc-400 text-sm">
-            <span className="text-white font-medium">Semua layanan</span> sudah termasuk warm towel treatment &amp; free mineral water.
+            <span className="text-white font-medium">Semua layanan</span> sudah termasuk treatment handuk hangat &amp; gratis air mineral.
           </p>
         </div>
       </div>
