@@ -20,8 +20,8 @@ export function TestimonialsSection() {
           backgroundAttachment: "fixed", // Parallax effect
         }}
       >
-        <div className="absolute inset-0 bg-zinc-950/85 backdrop-blur-[2px]" />
-        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-transparent to-zinc-950" />
+        <div className="absolute inset-0 bg-zinc-950/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/40 via-transparent to-zinc-950/40" />
       </div>
 
       <div className="max-w-6xl mx-auto px-5 relative z-10">
