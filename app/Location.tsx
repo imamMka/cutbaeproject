@@ -6,8 +6,22 @@ import { SectionLabel } from "@/components/Shared";
 // ─── LOCATION ─────────────────────────────────────────────────────────────────
 export function LocationSection() {
   return (
-    <section id="location" className="py-28 bg-zinc-900">
-      <div className="max-w-6xl mx-auto px-5">
+    <section id="location" className="py-28 bg-zinc-950 relative overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url("/testi.jpg")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed", // Parallax effect
+        }}
+      >
+        <div className="absolute inset-0 bg-zinc-950/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-transparent to-zinc-950" />
+      </div>
+
+      <div className="max-w-6xl mx-auto px-5 relative z-10">
         <SectionLabel label="Location" />
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>

@@ -1,5 +1,5 @@
 // ─── CONSTANTS ────────────────────────────────────────────────────────────────
-export const WA_NUMBER = "6281219118993"; // ← ganti nomor WA CUTBAE
+export const WA_NUMBER = "6282122301730"; // ← ganti nomor WA CUTBAE
 export const WA_MESSAGE = encodeURIComponent(
   "Halo CUTBAE, saya mau booking haircut. Bisa dibantu?"
 );
@@ -16,24 +16,17 @@ export const NAV_LINKS = [
 export const SERVICES_HAIRCUT = [
   {
     icon: "✂",
-    name: "Basic Haircut",
+    name: "Bae's Haircut",
     desc: "Precision cut tailored to your face shape and lifestyle. Konsultasi gratis setiap sesi.",
-    price: "Rp 65.000",
+    price: "Rp 80.000",
     tag: "Most Popular",
   },
   {
     icon: "✂",
-    name: "Haircut By Zaky",
+    name: "Women's Haircut",
     desc: "Pomade, wax, clay — kita set sesuai tekstur rambut lo. Hasil natural atau bold, lo yang tentuin.",
-    price: "Rp 70.000",
+    price: "Rp 95.000",
     tag: null,
-  },
-  {
-    icon: "✂",
-    name: "Woman's Haircut",
-    desc: "Rileksasi skalp dengan hot stone massage. Cocok setelah hari panjang.",
-    price: "Rp 80.000",
-    tag: "Premium",
   },
 ];
 
@@ -42,7 +35,7 @@ export const SERVICES_COLORING = [
     icon: "◈",
     name: "Black/Dark Brown",
     desc: "Natural color result. Only available for short hair.",
-    price: "Rp 80.000",
+    price: "From Rp 100.000",
     tag: "Most Popular",
   },
   {
@@ -56,7 +49,7 @@ export const SERVICES_COLORING = [
     icon: "◈",
     name: "Fashion Hair Color",
     desc: "Rileksasi skalp dengan hot stone massage. Cocok setelah hari panjang.",
-    price: "From Rp 199.000",
+    price: "From Rp 225.000",
     tag: "Premium",
   },
 ];
@@ -66,29 +59,29 @@ export const SERVICES_TREATMENTS = [
     icon: "◉",
     name: "DownPerm",
     desc: "Precision cut tailored to your face shape and lifestyle. Konsultasi gratis setiap sesi.",
-    price: "Rp 80.000",
-    tag: "Most Popular",
+    price: "From Rp 100.000",
+    tag: null,
   },
   {
     icon: "◉",
     name: "Hairmask",
     desc: "Pomade, wax, clay — kita set sesuai tekstur rambut lo. Hasil natural atau bold, lo yang tentuin.",
-    price: "Rp 45.000",
+    price: "From Rp 50.000",
     tag: null,
   },
   {
     icon: "◉",
     name: "Creambath",
     desc: "Rileksasi skalp dengan hot stone massage. Cocok setelah hari panjang.",
-    price: "Rp 80.000",
-    tag: "Premium",
+    price: "From Rp 80.000",
+    tag: null,
   },
   {
     icon: "◉",
     name: "Perming",
     desc: "Rileksasi skalp dengan hot stone massage. Cocok setelah hari panjang.",
     price: "From Rp 325.000",
-    tag: "Premium",
+    tag: "Most Popular",
   },
   {
     icon: "◉",
@@ -96,6 +89,13 @@ export const SERVICES_TREATMENTS = [
     desc: "Rileksasi skalp dengan hot stone massage. Cocok setelah hari panjang.",
     price: "From Rp 200.000",
     tag: "Premium",
+  },
+  {
+    icon: "◉",
+    name: "Smoothing & shape",
+    desc: "Rileksasi skalp dengan hot stone massage. Cocok setelah hari panjang.",
+    price: "From Rp 350.000",
+    tag: null,
   },
 ];
 
@@ -128,11 +128,18 @@ export const TESTIMONIALS = [
   },
 ];
 
+export const CAPSTERS = [
+  { name: "Kaka", role: "Senior Barber", bio: "Expert in classic fades and precision beard sculpting." },
+  { name: "Eguh", role: "Style Architect", bio: "Specializes in modern textured crops and creative styling." },
+  { name: "Arif", role: "Master Barber", bio: "Your go-to for clean pompadours and traditional scissor cuts." },
+  { name: "Heru", role: "Grooming Specialist", bio: "Precision focused with a keen eye for face-shape tailoring." },
+];
+
 export const GALLERY_ITEMS = [
-  { img: "/1.jpg", label: "Classic Fade" },
-  { img: "/2.jpg", label: "Textured Crop" },
-  { img: "/3.jpg", label: "Pompadour" },
-  { img: "/1.jpg", label: "Undercut" },
-  { img: "/2.jpg", label: "Slick Back" },
-  { img: "/3.jpg", label: "Buzz Cut" },
+  { img: "/1.webp", label: "Classic Fade" },
+  { img: "/2.webp", label: "Textured Crop" },
+  { img: "/3.webp", label: "Pompadour" },
+  { img: "/4.webp", label: "Undercut" },
+  { img: "/5.webp", label: "Slick Back" },
+  { img: "/6.webp", label: "Buzz Cut" },
 ];

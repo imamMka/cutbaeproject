@@ -9,22 +9,8 @@ import { SectionLabel } from "@/components/Shared";
 export function TestimonialsSection() {
   const { ref, visible } = useScrollReveal();
   return (
-    <section id="testimonials" className="py-28 bg-zinc-950 relative overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url("/testi.jpg")`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed", // Parallax effect
-        }}
-      >
-        <div className="absolute inset-0 bg-zinc-950/60" />
-        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/40 via-transparent to-zinc-950/40" />
-      </div>
-
-      <div className="max-w-6xl mx-auto px-5 relative z-10">
+    <section id="testimonials" className="py-28 bg-zinc-950">
+      <div className="max-w-6xl mx-auto px-5">
         <SectionLabel label="Testimonials" />
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-4">
           <h2 className="text-white text-4xl md:text-5xl font-serif font-black leading-tight">

@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "./Hero";
 import { AboutSection } from "./About";
 import { ServicesSection } from "./Services";
+import { CapstersSection } from "./Capsters";
 import { TestimonialsSection } from "./Testimonials";
 import { GallerySection } from "./Gallery";
 import { BookingCTASection } from "./BookingCTA";
@@ -18,6 +19,7 @@ export default function CutbaePage() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <CapstersSection />
       <TestimonialsSection />
       <GallerySection />
       <BookingCTASection />
